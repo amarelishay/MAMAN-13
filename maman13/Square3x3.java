@@ -3,7 +3,7 @@
  * Square3x3.
  *ex 1 : 
  * the class represents a square  with a two-dimensional array of integers at the size of  3 × 3 .   
- * @author Elishay Amar ID:318840394
+ * @author Elishay Amar 
  */
 public class Square3x3
 {
