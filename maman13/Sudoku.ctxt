@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Sudoku
+comment0.text=\r\n\ Sudoku\r\nex02\:\ \r\n\ This\ class\ will\ represent\ a\ board\ of\ Sudoku\ game\ with\r\n\ A\ 3x3\ two-dimensional\ array\ of\ Square3x3\ objects\r\n\ @author\ Elishay\ Amar\ ID\ 318840394\ \r\n
+comment1.params=
+comment1.target=Sudoku()
+comment1.text=\r\n\ An\ empty\ constructor\ that\ will\ initialize\ the\ sudoku\ board\ so\ that\ it\ is\ composed\ of\ objects\r\n\ Of\ the\ Square3x3\ class\ which\ are\ all\ filled\ with\ values\ -1\r\n\ (as\ created\ by\ the\ empty\ constructor\ of\ the\ Square3x3\ class)\r\n
+comment2.params=Array
+comment2.target=Sudoku(Square3x3[][])
+comment2.text=\r\n\ A\ constructor\ that\ receives\ as\ a\ parameter\ a\ 3x3\ array\ of\ objects\ of\ the\ class\ "Square3x3",\ \r\n\ and\ will\ copy\ the\ values\ in\ these\ objects\ to\ the\ new\ \r\n\ sudoku\ board.\r\n\ @param\ Array\ represents\ the\ 3x3\ array\ of\ objects\ of\ the\ class\ "Square3x3"\r\n
+comment3.params=row
+comment3.target=boolean\ checkEachRow(int)
+comment3.text=\r\n\ A\ method\ that\ checks\ the\ integrity\ of\ the\ rows\ in\ the\ \ sudoku\ board\ by\ going\ over\ each\ row\ of\ the\ board.\r\n\ If\ the\ row\ from\ the\ game\ board\ is\ correct,\ the\ method\ will\ return\ 'True'\r\n\ @param\ row\ represent\ the\ row\ number\ from\ the\ board\ that\ the\ method\ is\ checikg\ each\ run\ \r\n\ @return\ true\ if\ the\ row\ is\ correct\r\n\r\n
+comment4.params=col
+comment4.target=boolean\ checkEachColumn(int)
+comment4.text=\r\n\ A\ method\ that\ checks\ the\ integrity\ of\ the\ columns\ in\ the\ \ sudoku\ board\ by\ going\ over\ each\ column\ of\ the\ board.\r\n\ If\ the\ column\ from\ the\ game\ board\ is\ correct,\ the\ method\ will\ return\ 'True'\r\n\ @param\ col\ \ represent\ the\ \ column\ number\ from\ the\ board\ that\ the\ method\ is\ checikg\ each\ run\ \r\n\ @return\ true\ if\ the\ row\ is\ correct\r\n\r\n
+comment5.params=
+comment5.target=boolean\ isValid()
+comment5.text=\r\n\ This\ method\ will\ check\ if\ the\ sudoku\ board\ is\ valid.\r\n\ If\ so\ -\ return\ true.\ If\ the\ board\ is\ invalid\ -\ return\ false\r\n\ @return\ true\ if\ the\ board\ is\ valid\ else\ return\ false\r\n
+numComments=6
